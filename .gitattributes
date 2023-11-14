@@ -1,0 +1,6 @@
+videos8_crosswalk_iteraion1600_10_17.weights filter=lfs diff=lfs merge=lfs -text
+car1900.weights filter=lfs diff=lfs merge=lfs -text
+car_iteration1900.weights filter=lfs diff=lfs merge=lfs -text
+person_iteration1700_10_10.weights filter=lfs diff=lfs merge=lfs -text
+person_iteration1700_10_21.weights filter=lfs diff=lfs merge=lfs -text
+videos2_crosswalk_iteraion1700.weights filter=lfs diff=lfs merge=lfs -text

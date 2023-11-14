@@ -1,5 +1,0 @@
-classes = 1
-train  = data/train.txt
-valid  = data/test.txt
-names = Project_file/Parametrical_name/car.names
-backup = backup/

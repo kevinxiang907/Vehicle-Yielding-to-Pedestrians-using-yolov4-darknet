@@ -29,13 +29,19 @@ def mosaic(frame, xmin, ymin, xmax, ymax):
     return frame
 
 # 參數設定
-cfg_file = ["cfg/yolo-obj.cfg", "cfg/yolo-obj-car.cfg", "cfg/yolo-obj-crosswalk.cfg"]
+cfg_file = ["Project_file/Parametrical_cfg/yolo-obj.cfg",
+            "Project_file/Parametrical_cfg/yolo-obj-car.cfg",
+            "Project_file/Parametrical_cfg/yolo-obj-crosswalk.cfg"]
 
 # 名稱檔
-data_file = ["data/obj_person.data", "data/obj_car.data", "data/obj_crosswalk.data"]
+data_file = ["Project_file/Parametrical_name/person.data",
+             "Project_file/Parametrical_name/car.data",
+             "Project_file/Parametrical_name/crosswalk.data"]
 
 # 權重檔
-weight_file = ["backup/person_iteration1700_10_10.weights", "backup/car_iteration1900.weights", "backup/videos8_crosswalk_iteraion1600_10_17.weights"]
+weight_file = ["Project_file/Parametrical_weight/person_iteration1700_10_21.weights", 
+               "Project_file/Parametrical_weight/car_iteration1900.weights", 
+               "Project_file/Parametrical_weight/videos2_crosswalk_iteraion1700.weights"]
 
 network = []
 class_names = []
